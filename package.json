@@ -1,0 +1,24 @@
+{
+  "name": "file_manager_node_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VladimirSolo/File_Manager_Node_JS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VladimirSolo/File_Manager_Node_JS/issues"
+  },
+  "homepage": "https://github.com/VladimirSolo/File_Manager_Node_JS#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
