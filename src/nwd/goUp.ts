@@ -1,4 +1,4 @@
-import { currentDirectory, inavidCommandMsg } from "../utils";
+import { currentDirectory, invavidCommandMsg } from "../utils";
 import os from 'os';
 
 export const goUp = (): void => {
@@ -18,6 +18,6 @@ export const goUp = (): void => {
     } else {
       console.log('\x1b[31m%s\x1b[0m', `Error going up: ${error.message}`);
     }
-    inavidCommandMsg();
+    invavidCommandMsg();
   }
 };

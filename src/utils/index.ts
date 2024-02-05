@@ -9,7 +9,7 @@ export const currentDirectory = (): void => {
   console.log(`You are currently in ${process.cwd()}\n`)
 };
 
-export const inavidCommandMsg = (): void => {
+export const invavidCommandMsg = (): void => {
   console.log('\x1b[33m%s\x1b[0m', 'Invalid input. Please enter a valid command.');
 };
 
